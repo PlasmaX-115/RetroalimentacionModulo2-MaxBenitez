@@ -3,9 +3,9 @@
 
 Para la realización de esta actividad se implementó el algoritmo KNN para clasificación.
 
-# Manual de Instalación y Configuración de Miniconda y Entorno Virtual con scikit-learn
+# Manual de Instalación y Configuración de Miniconda y Entorno Virtual con scikit-learn para el uso del algoritmo KNN.
 
-En este manual, te guiaré a través de los pasos para instalar Miniconda, una versión minimalista de Anaconda, y cómo crear un entorno virtual utilizando Miniconda para trabajar con scikit-learn, una biblioteca de aprendizaje automático en Python.
+En este manua se presentan los pasos para instalar Miniconda, una versión minimalista de Anaconda, y cómo crear un entorno virtual utilizando Miniconda para trabajar con scikit-learn, una biblioteca de aprendizaje automático en Python con la cual se implementó KNN.
 
 ## Paso 1: Descargar Miniconda
 
