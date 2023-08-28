@@ -96,13 +96,23 @@ En este manua se presentan los pasos para instalar Miniconda, una versión minim
      ```
      source activate sklearn-env
      ```
+2. Posteriormente se podrá ejecutar el archivo 'train.py', el cual ejecuta todas las funciones necesarias de predicción.
 
-2. Cuando hayas terminado de trabajar, desactiva el entorno virtual:
+## Output
+
+El output de 'train.py' despliega una lista de los datos que el modelo predijo, así como la gráfica y el porcentaje de "accuracy" de los mismos.
+     ```
+     [7, 1, 7, 6, 0, 2, 4, 3, 6, 3, 7, 8, 7, 9, 4, 3, 8, 7, 8, 4, 0, 3, 9, 1, 3, 6, 6, 0, 5, 4, 1, 8, 1, 2, 3, 2, 7, 6, 4, 8, 6, 4, 4, 0, 9, 2, 8, 5, 4, 4, 4, 1, 7, 6, 8, 2, 9, 9, 9, 0, 8, 3, 1, 8, 8, 1, 3, 9, 1, 3, 9, 6, 9, 5, 2, 1, 9, 2, 1, 3, 8, 7, 3, 3, 8, 7, 7, 5, 8, 2, 6, 1, 9, 1, 6, 4, 5, 2, 2, 4, 5, 4, 7, 6, 5, 9, 2, 4, 1, 0, 7, 6, 1, 2, 9, 5, 2, 5, 0, 3, 2, 7, 6, 4, 8, 2, 1, 1, 6, 4, 6, 2, 5, 4, 7, 5, 0, 9, 1, 0, 5, 6, 7, 6, 3, 8, 3, 2, 0, 4, 4, 1, 5, 4, 6, 1, 1, 1, 6, 1, 7, 9, 0, 7, 9, 5, 4, 1, 3, 8, 6, 4, 7, 1, 5, 7, 4, 7, 4, 3, 2, 2, 1, 1, 4, 4, 3, 5, 5, 9, 4, 5, 5, 9, 3, 9, 3, 1, 2, 0, 8, 2, 4, 5, 2, 4, 6, 8, 3, 8, 1, 0, 8, 1, 8, 5, 6, 8, 7, 1, 8, 3, 4, 9, 7, 0, 5, 5, 6, 1, 3, 0, 5, 8, 2, 0, 9, 8, 6, 7, 8, 4, 1, 0, 5, 2, 5, 1, 6, 4, 7, 1, 2, 6, 4, 4, 6, 3, 2, 3, 2, 6, 5, 2, 9, 4, 7, 0, 1, 0, 4, 3, 1, 2, 7, 9, 8, 5, 9, 5, 7, 0, 4, 8, 4, 9, 4, 0, 7, 7, 7, 5, 3, 5, 3, 9, 7, 5, 5, 2, 7, 0, 8, 9, 1, 7, 9, 8, 5, 0, 2, 0, 8, 7, 0, 9, 5, 5, 9, 6, 1, 2, 3, 9, 6, 3, 2, 9, 3, 4, 3, 4, 1, 8, 1, 8, 5, 0, 9, 2, 7, 2, 3, 5, 2, 6, 3, 4, 1, 5, 0, 5, 4, 6, 3, 2, 5, 0, 7, 3]
+0.9861111111111112
+     ```
+
+## Conclusión
+1. Cuando haya terminado de trabajar, se debe desactiva el entorno virtual:
 
    ```
    conda deactivate
    ```
 
-## Conclusión
 
-¡Has completado la instalación de Miniconda, la creación de un entorno virtual y la instalación de scikit-learn! Ahora estás listo para desarrollar aplicaciones de aprendizaje automático utilizando scikit-learn en un entorno virtual aislado. Recuerda activar el entorno virtual siempre que quieras trabajar con tu proyecto y desactívalo cuando hayas terminado para evitar conflictos entre paquetes. ¡Feliz programación! 🚀
+¡Se hacompletado la creación de un entorno virtual, la instalación de scikit-learn y el testeo del algoritmo KNN! ¡Happy Hacking! 🚀
+
