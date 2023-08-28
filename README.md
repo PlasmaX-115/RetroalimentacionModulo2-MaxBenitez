@@ -118,5 +118,5 @@ El output de 'train.py' despliega una lista de los datos que el modelo predijo, 
    ```
 
 
-¡Se hacompletado la creación de un entorno virtual, la instalación de scikit-learn y el testeo del algoritmo KNN! ¡Happy Hacking! 🚀
+¡Se ha completado la creación de un entorno virtual, la instalación de scikit-learn y el testeo del algoritmo KNN! ¡Happy Hacking! 🚀
 
