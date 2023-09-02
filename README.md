@@ -3,6 +3,15 @@
 
 Para la realización de esta actividad se implementó el algoritmo KNN para clasificación.
 
+# ¿Cómo funciona KNN?
+
+K-Nearest Neighbors (k-NN): Algoritmo de aprendizaje supervisado para clasificación y regresión.
+
+1. Entrenamiento: Almacena ejemplos con etiquetas conocidas.
+2. Predicción (Clasificación): Encuentra los "k" ejemplos más cercanos en el conjunto de entrenamiento y asigna la etiqueta más común.
+3. Predicción (Regresión): Encuentra los "k" ejemplos más cercanos y promedia sus valores para predecir un número.
+4. El valor de "k" afecta la sensibilidad del algoritmo. Simple pero puede ser sensible al ruido y a la elección de la métrica de distancia.
+
 # Manual de Instalación y Configuración de Miniconda y Entorno Virtual con scikit-learn para el uso del algoritmo KNN.
 
 En este manua se presentan los pasos para instalar Miniconda, una versión minimalista de Anaconda, y cómo crear un entorno virtual utilizando Miniconda para trabajar con scikit-learn, una biblioteca de aprendizaje automático en Python con la cual se implementó KNN.
