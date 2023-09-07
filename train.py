@@ -21,7 +21,7 @@ from matplotlib.colors import ListedColormap
 cmap = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])
 
 # Se carga el dataset de iris
-iris = datasets.load_iris()
+iris = datasets.load_digits()
 
 # Generar predicciones con el dataset iris
 X, y = iris.data, iris.target
@@ -47,7 +47,11 @@ for iteration in range(num_iterations):
     # Matriz de confusión para el dataset de iris
     cm = confusion_matrix(y_test, predicciones)
 
-    df1 = pd.DataFrame(columns=["0", "1", "2"], index=["0", "1", "2"], data=cm)
+    # Crear un DataFrame de pandas para la matriz de confusión con etiquetas dinámicas
+    num_classes = len(np.unique(y_test))
+    class_labels = [str(i) for i in range(num_classes)]
+    df1 = pd.DataFrame(columns=class_labels, index=class_labels, data=cm)
+
 
     row, col = divmod(iteration, 5)  # Calcular la posición del subplot
     ax = axs[row, col]
